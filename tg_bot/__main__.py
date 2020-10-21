@@ -31,7 +31,7 @@ Hey there! My name is *{}*.
 
 I am an Anime themed group management bot with some fun extras ;)
 
-MY SUPPORT GROUP IS @BotLabSupport
+MY SUPPORT GROUP IS @Botlabserena
 
 You can find the list of available commands with /help
 
