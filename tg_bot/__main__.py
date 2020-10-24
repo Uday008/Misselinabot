@@ -27,15 +27,15 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Hey there! My name is *{}*.
-@animetmdub
+Hey *{}* there! My name is Elina.
+
 I am an Anime themed group management bot with some fun extras ;)
 
-MY SUPPORT GROUP IS @animetmchat
+MY SUPPORT GROUP IS [ANIMETM DISCUSSIONS](https://t.me/animetmchat)
 
 You can find the list of available commands with /help
 
-MY  CHANNEL IS @animetmdub
+MY  CHANNEL IS [ANIMETM OFFICIAL](https://t.me/animetmdub)
 
 Made By @Darkpokefan.
 
