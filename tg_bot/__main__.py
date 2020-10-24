@@ -28,20 +28,20 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 Hey there! My name is *{}*.
-
+@animetmdub
 I am an Anime themed group management bot with some fun extras ;)
 
-MY SUPPORT GROUP IS @Botlabserena
+MY SUPPORT GROUP IS @animetmchat
 
 You can find the list of available commands with /help
 
-MY  CHANNEL IS @BotLabUpdates
+MY  CHANNEL IS @animetmdub
 
 Made By @Darkpokefan.
 
 """
 
-BOT_IMG = "https://telegra.ph/file/2354b783c61e292ff93ed.jpg"
+BOT_IMG = "https://telegra.ph/file/ed74c5f41af01db4eee17.jpg"
 
 
 HELP_STRINGS = """
@@ -152,12 +152,12 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 BOT_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="❕Add M̶i̶s̶s̶ ̶S̶e̶r̶e̶n̶a̶ to your group ",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="❕Add Miss Elina to your group ",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
 
     else:
-        update.effective_message.reply_text("HI, Why u summoned me")
+        update.effective_message.reply_text("HI")
 
 
 def send_start(bot, update):
